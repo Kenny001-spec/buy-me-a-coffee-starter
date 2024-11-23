@@ -24,7 +24,6 @@ const ContributionForm = () => {
 					<Input
 						placeholder="Amount (XFI)"
                         type="number"
-                        min={0.001}
 						className="border-orange-200 focus:ring-orange-300"
                         onChange={(e) => setAmount(e.target.value)}
 					/>
